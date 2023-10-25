@@ -1,5 +1,7 @@
 # JavaScript Brick Breaker DOM Game
 
+![JavaScript Brick Breaker DOM Game](brick-breakout3.png)
+
 ## Description
 
 **Brick Breakout** is an engaging game where players aim to break as many bricks as possible by bouncing a ball off a paddle. Built with the trifecta of web technologies - HTML, CSS, and JavaScript, this game offers hours of fun paired with vibrant visuals.
