@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Brick Breakout</title>
+    <meta
+      name="description"
+      content="Brick Breakout is a fun game where you bounce a ball off a paddle to break as many numbered bricks as you can before missing the ball." />
+  </head>
+  <body>
+    <div class="title-container">
+      <button id="restart-btn" class="btn restart-btn">Restart</button>
+      <h1>Brick 🧱 Breakout!</h1>
+    </div>
+    <button id="rules-btn" class="btn rules-btn">About The Game</button>
+
+    <div id="rules" class="rules">
+      <div>
+        <h2>Objective:</h2>
+        <p>
+          The goal of the game is to break as many blocks as you can before
+          missing the ball.
+        </p>
+        <ul>
+          <li>Your remaining lives are displayed top left</li>
+          <li>Your score is displayed top right</li>
+          <li>Your highest score is stored in local storage.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Rules:</h3>
+        <ul>
+          <li>You have 3 lives.</li>
+          <li>Use the space bar to pause the game.</li>
+          <li>If you miss the ball, your will reduce by 1.</li>
+          <li>Upon 3 misses, it's game over!</li>
+        </ul>
+      </div>
+      <div>
+        <h3>How To Play:</h3>
+        <ul>
+          <li>Use the Spacebar key to start, pause or resume the game.</li>
+          <li>Use your right and left arrow keys to move the paddle.</li>
+        </ul>
+      </div>
+      <h3>Good Luck & Have Fun 😎</h3>
+      <button id="close-btn" class="btn">Close</button>
+    </div>
+    <canvas id="canvas" width="1050" height="800"></canvas>
+  </body>
+</html>
