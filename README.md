@@ -1,6 +1,6 @@
 # JavaScript Brick Breaker DOM Game
 
-![JavaScript Brick Breaker DOM Game](brick-breakout3.png)
+![JavaScript Brick Breaker DOM Game](showroom.jpg)
 
 ## Description
 
