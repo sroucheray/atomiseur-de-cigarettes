@@ -1,55 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
-    <title>Brick Breakout</title>
-    <meta
-      name="description"
-      content="Brick Breakout is a fun game where you bounce a ball off a paddle to break as many numbered bricks as you can before missing the ball." />
+    <title>Atomiseur de cigarettes</title>
   </head>
   <body>
+    <img id="cigarette0" src="./cigarette0.jpg" hidden />
+    <img id="cigarette1" src="./cigarette1.jpg" hidden />
+    <img id="cigarette2" src="./cigarette2.jpg" hidden />
+    <img id="cigarette3" src="./cigarette3.jpg" hidden />
+    <img id="tournesol" src="./tournesol.png" hidden />
+    <img id="herbe" src="./herbe.png" hidden />
     <div class="title-container">
-      <button id="restart-btn" class="btn restart-btn">Restart</button>
-      <h1>Brick 🧱 Breakout!</h1>
+      <button id="restart-btn" class="btn restart-btn">Redémarrer</button>
+      <h1>
+        Atomiseur de <img id="tournesol" src="./cigarette-titre.jpg" /> cigarettes !
+      </h1>
     </div>
-    <button id="rules-btn" class="btn rules-btn">About The Game</button>
+    <button id="rules-btn" class="btn rules-btn">À propos du jeu</button>
 
-    <div id="rules" class="rules">
+<div id="rules" class="rules">
       <div>
-        <h2>Objective:</h2>
+        <h2>Objectif :</h2>
         <p>
-          The goal of the game is to break as many blocks as you can before
-          missing the ball.
+          Le but du jeu est d'atomiser autant de cigarettes que possible avant
+          de manquer la fleur.
         </p>
         <ul>
-          <li>Your remaining lives are displayed top left</li>
-          <li>Your score is displayed top right</li>
-          <li>Your highest score is stored in local storage.</li>
+          <li>Vos vies restantes sont affichées en haut à gauche</li>
+          <li>Votre score est affiché en haut à droite</li>
+          <li>Votre meilleur score est stocké dans le stockage local.</li>
         </ul>
       </div>
 
       <div>
-        <h3>Rules:</h3>
+        <h3>Règles :</h3>
         <ul>
-          <li>You have 3 lives.</li>
-          <li>Use the space bar to pause the game.</li>
-          <li>If you miss the ball, your will reduce by 1.</li>
-          <li>Upon 3 misses, it's game over!</li>
+          <li>Vous avez 3 vies.</li>
+          <li>Utilisez la barre d'espace pour mettre le jeu en pause.</li>
+          <li>Si vous manquez la balle, votre vie sera réduite de 1.</li>
+          <li>Après 3 échecs, c'est terminé !</li>
         </ul>
       </div>
       <div>
-        <h3>How To Play:</h3>
+        <h3>Comment Jouer :</h3>
         <ul>
-          <li>Use the Spacebar key to start, pause or resume the game.</li>
-          <li>Use your right and left arrow keys to move the paddle.</li>
+          <li>Utilisez la barre d'espace pour démarrer, mettre en pause ou reprendre le jeu.</li>
+          <li>Utilisez les touches fléchées droite et gauche pour déplacer la raquette.</li>
         </ul>
       </div>
-      <h3>Good Luck & Have Fun 😎</h3>
-      <button id="close-btn" class="btn">Close</button>
+      <h3>Bonne Chance & Atomisez le plus de cigarettes possible 😎</h3>
+      <button id="close-btn" class="btn">Fermer</button>
     </div>
     <canvas id="canvas" width="1050" height="800"></canvas>
   </body>
